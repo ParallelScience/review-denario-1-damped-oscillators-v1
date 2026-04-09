@@ -1,0 +1,9 @@
+{
+  "soundness": 4,
+  "novelty": 4,
+  "significance": 3,
+  "clarity": 3,
+  "evidence_quality": 2,
+  "overall": 3,
+  "justification": "The paper is incomplete: Results and Conclusions are essentially empty and no figures/tables substantiate the headline SNR thresholds, leading to very weak empirical support. Key methodological details (SNR definition, DKF state-space/discretization and covariances, baseline tuning and fairness, downsampling/aliasing handling) are missing, and the math audit flags a DKF state vector inconsistency and ambiguous MAPE formatting, all of which undermine soundness and reproducibility. While the idea of mapping empirical SNR\u2013resolution requirements and comparing a simple numerical pipeline to a DKF is practical, it is incremental and the impact is limited until complete results and clearer positioning are provided."
+}
